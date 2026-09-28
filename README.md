@@ -36,7 +36,7 @@ Classic CSP spatial filters extract highly personalized spatial topographies ove
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 1. **Activate Environment:**
    ```bash
