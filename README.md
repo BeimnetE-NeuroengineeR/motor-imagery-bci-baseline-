@@ -4,7 +4,7 @@ Decoding imagined left- vs. right-fist movement from 64-channel EEG signals usin
 
 ---
 
-## 📌 Methodology
+##  Methodology
 
 1. **Preprocessing & Pre-filtering:**
    - Bandpass filtered between **8.0–30.0 Hz** ($\mu$ and $\beta$ motor bands).
@@ -18,7 +18,7 @@ Decoding imagined left- vs. right-fist movement from 64-channel EEG signals usin
 
 ---
 
-## 📊 Results
+##  Results
 
 | Metric | Within-Subject Mean | Leave-One-Subject-Out (LOSO) Mean |
 | :--- | :---: | :---: |
@@ -30,7 +30,7 @@ Decoding imagined left- vs. right-fist movement from 64-channel EEG signals usin
 
 ---
 
-## 💡 Key Takeaway & Discussion
+##  Key Takeaway & Discussion
 
 Classic CSP spatial filters extract highly personalized spatial topographies over the sensorimotor cortex ($C3$/$C4$). While individual subjects show strong class separability (e.g., Subject 7 at **97.8%**), the raw spatial patterns fail to generalize across unseen subjects without **domain adaptation**, **Riemannian manifold alignment**, or **subject-invariant feature representations**.
 
